@@ -49,6 +49,13 @@
         opacity: 0;
       }
     }
+    &.description-shown-true linter-excerpt {
+      opacity: 0.3;
+    }
+    &.description-shown-true .linter-tooltip-preview {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
 
     // Arrow pointer
     &:last-child::before {
